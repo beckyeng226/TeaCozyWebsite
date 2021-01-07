@@ -1,0 +1,41 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+}
+.logo {
+    margin-left: 10px;
+    height: 50px;
+    align-items: left;
+}
+header nav {
+    text-decoration: underline;
+    float: right;
+   
+}
+
+header nav ul {
+    list-style-type: none;
+    display: inline;
+}
+
+article {
+    position: relative;
+    top: 69px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

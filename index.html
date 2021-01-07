@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Tea Cozy</title>
+ <!-- Describe this page for search engines -->
+ <meta name="description" content="Website for Tea Cozy">
+ <!-- Character set for English and similar languages -->
+ <meta charset="utf-8">
+ <!-- Helps with rendering on mobile devices -->
+ <meta name="viewport" content="width=device-width">
+ <!-- Link to external style sheet -->
+ <link href="style.css" rel="stylesheet" type="text/css">
+ 
+</head>
+<body>
+ <script>
+ //Make older browsers aware of new HTML5 layout tags
+ 'header nav aside article footer section figure figcaption'.replace(/\w+/g, function (n) { document.createElement(n) })
+ </script>
+ <!-- Constrain width of layout (optional) -->
+ <div id="wrapper">
+ <!-- Header is logo, title, or other info at top of each page -->
+ <header>
+     <div class="logo">
+ <img src="images/tea-cozy-logo.webp">
+     </div>
+ <!-- If site contains multiple pages, nav includes links to other pages -->
+ <nav>
+   <ul>
+       <li>Mission</li>
+       <li>Featured Tea</li>
+       <li>Locations</li>
+   </ul>
+ </nav>
+</header>
+ 
+ <!-- Article is the main content of the page -->
+ <article>
+ Main content column
+ </article>
+ 
+ <!-- Footer at bottom of page (optional) -->
+ <footer>
+<h2>The Tea Cozy</h2>
+<h5>contact@theteacozy.com</h5>
+<h5>917-555-8904</h5>
+ </footer>
+ </div><!-- End wrapper (nothing below this except /body and /html) -->
+</body>
+</html>
