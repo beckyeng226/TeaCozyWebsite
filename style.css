@@ -109,8 +109,12 @@ figcaption {
 }
 
 #locations {
+    border: 1px solid black;
+    margin-top: 50px;
     height: 500px;
     background-image: url("images/locations-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -126,6 +130,7 @@ figcaption {
 
 #contact {
     height: 200px;
+    margin-top: 20px;
 }
 
 footer {
