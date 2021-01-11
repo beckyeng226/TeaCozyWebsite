@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Tea Cozy</title>
+ <!-- Describe this page for search engines -->
+ <meta name="description" content="Website for The Tea Cozy">
+ <!-- Character set for English and similar languages -->
+ <meta charset="utf-8">
+ <!-- Helps with rendering on mobile devices -->
+ <meta name="viewport" content="width=device-width">
+ <!-- Link to external style sheet -->
+ <link href="style.css" rel="stylesheet" type="text/css">
+ 
+</head>
+<body>
+ <script>
+ //Make older browsers aware of new HTML5 layout tags
+ 'header nav aside article footer section figure figcaption'.replace(/\w+/g, function (n) { document.createElement(n) })
+ </script>
+
+ <!-- Header is logo, title, or other info at top of each page -->
+ <header class="flex-container">
+  
+ <img src="images/tea-cozy-logo.webp">
+   
+ <!-- If site contains multiple pages, nav includes links to other pages -->
+ <nav>
+    <span><a href="#mission">Mission</a></span>
+    <span><a href="#featured">Featured Tea</a></span>
+    <span><a href="#locations">Locations</a></span>
+
+ </nav>
+</header>
+ 
+ <!-- Article is the main content of the page -->
+ <main>
+   <div id="mission">
+       <h2>Our Mission</h2>
+       <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+
+   </div>
+   <div id="featured">
+        <h2>Tea of the Month</h2>
+        <h4>What's Steeping at The Tea Cozy?</h4>
+
+        <div class="flex-container">
+        <figure>
+            <img src="images/berryblitz.webp" alt="">
+            <br/>
+            <figcaption>Fall Berry Blitz Tea</figcaption>
+        </figure>
+        <figure>
+            <img src="images/spiced-rum.webp" alt="">
+            <br/>
+            <figcaption>Spiced Rum Tea</figcaption>
+        </figure>
+        <figure>
+            <img src="images/donut.webp" alt="">
+            <figcaption>Seasonal Donuts</figcaption>
+        </figure>
+        <figure>
+            <img src="images/myrtle-ave.webp" alt="">
+            <figcaption>Myrtle Ave Tea</figcaption>
+        </figure>
+        <figure>
+            <img src="images/bedford-bizarre.webp" alt="">
+            <figcaption>Bedford Bizarre Tea</figcaption>
+        </figure>
+    </div>
+
+   </div>
+   <div id="locations">
+    <h2>Locations</h2>
+    <div id="downtown">
+        <h3>Downtown</h3>
+        <h4>384 West 4th Street</h4>
+        <h4>Suite 108</h4>
+        <h4>Portland, Maine</h4>
+    </div>
+    <div id="eastBayside">
+        <h3>East Bayside</h3>
+        <h4>3433 Phisherman's Avenue</h4>
+        <h4>(Northwest Corner)</h4>
+        <h4>Portland, Maine</h4>
+    </div>
+    <div id="oakdale">
+        <h3>Oakdale</h3>
+        <h4>515 Crescent Avenue</h4>
+        <h4>Second Floor</h4>
+        <h4>Portland, Maine</h4>
+    </div>
+   </div>
+
+   <div id="contact">
+    <h2>The Tea Cozy</h2>
+    <h5>contact@theteacozy.com</h5>
+    <h5>917-555-8904</h5>
+   </div>
+</main>
+ 
+ <!-- Footer at bottom of page (optional) -->
+ <footer>
+    <h5>copyright The Tea Cozy 2017</h5>
+ </footer>
+ 
+</body>
+</html>

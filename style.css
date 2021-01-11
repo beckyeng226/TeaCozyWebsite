@@ -1,0 +1,94 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    padding-left: 10px;
+    height: 50px;
+
+}
+nav {
+    text-decoration: underline;
+    text-align: right;
+   
+}
+
+nav span {
+    padding: 20px 10px;
+    display: inline-block;
+    color: seashell;
+}
+
+article {
+    position: relative;
+    top: 69px;
+}
+
+#mission {
+    display: inline-block;
+    height: 700px;
+    background-image: url("images/mission-background.webp");
+}
+
+#featured {
+    display: inline-block;
+    width: 1000px;
+}
+figure {
+    display: inline-block;
+}
+figure img {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+#locations {
+    height: 500px;
+    background-image: url("images/locations-background.webp");
+}
+
+
+#downtown, #eastBayside, #oakdale {
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: black;
+    width: 300px;
+    display: inline-block;
+    margin: 15px 20px;
+    opacity: 1;
+}
+
+#contact {
+    height: 200px;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    padding-left: 20px;
+    text-align: left;
+}
