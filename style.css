@@ -140,3 +140,20 @@ footer {
     padding-left: 20px;
     text-align: left;
 }
+
+@media only screen and (max-width: 1052px) {
+    main {
+        display: grid;
+    }
+    
+    #locations {
+        height: 100%;
+    }
+
+    #featured {
+        display: grid;
+        
+    }
+
+    
+}
