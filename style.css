@@ -140,3 +140,20 @@ footer {
     padding-left: 20px;
     text-align: left;
 }
+
+@media only screen and (max-width: 1052px) {
+    main {
+        display: grid;
+    }
+    #mission {
+        width: 100%;
+    }
+    #locations {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    
+    
+}
